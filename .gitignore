@@ -1,12 +1,3 @@
-# Ignore the generated code files
-*.pb.cc
-*.pb.h
-*.pb.go
-*.pb.py
-*.pb.rb
-*.pb2.py
-*.pb.swift
-
 # Ignore temporary files created by protoc
 protoc-gen-*
 
