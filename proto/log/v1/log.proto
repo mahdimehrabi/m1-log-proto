@@ -2,7 +2,7 @@ syntax="proto3";
 
 package pet.v1;
 
-service Log{
+service LogService{
   rpc StoreLog(stream Log) returns(Empty){}
 }
 
