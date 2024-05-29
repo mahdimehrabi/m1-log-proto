@@ -29,7 +29,6 @@ dist/
 out/
 target/
 bin/
-gen/
 
 # Ignore Python virtual environments
 venv/
