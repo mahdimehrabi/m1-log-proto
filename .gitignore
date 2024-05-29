@@ -1,0 +1,68 @@
+# Ignore the generated code files
+*.pb.cc
+*.pb.h
+*.pb.go
+*.pb.py
+*.pb.rb
+*.pb2.py
+*.pb.swift
+
+# Ignore temporary files created by protoc
+protoc-gen-*
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+
+# Ignore build directories
+build/
+dist/
+out/
+target/
+bin/
+gen/
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Java build output
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Go vendor directory
+vendor/
+
+# Ignore Rust target directory
+target/
+
+# Ignore generated documentation
+docs/
+
+# Ignore other language-specific build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.lib
+*.pdb
+*.obj
+

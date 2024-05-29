@@ -1,0 +1,15 @@
+syntax="proto3";
+
+package pet.v1;
+
+service Log{
+  rpc StoreLog(stream Log) returns(Empty){}
+}
+
+
+message Empty{
+}
+
+message Log {
+  string Error=1;
+}
