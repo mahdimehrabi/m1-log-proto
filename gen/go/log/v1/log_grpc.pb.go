@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: log/v1/log.proto
 
-package petv1
+package logv1
 
 import (
 	context "context"
@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	LogService_StoreLog_FullMethodName = "/pet.v1.LogService/StoreLog"
+	LogService_StoreLog_FullMethodName = "/log.v1.LogService/StoreLog"
 )
 
 // LogServiceClient is the client API for LogService service.
@@ -129,7 +129,7 @@ func (x *logServiceStoreLogServer) Recv() (*Log, error) {
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var LogService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "pet.v1.LogService",
+	ServiceName: "log.v1.LogService",
 	HandlerType: (*LogServiceServer)(nil),
 	Methods:     []grpc.MethodDesc{},
 	Streams: []grpc.StreamDesc{
